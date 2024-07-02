@@ -1,23 +1,55 @@
-Você está dando os primeiros passos no uso de containers. E a melhor forma de iniciar no mundo de containers é usar em ambiente de desenvolvimento.
+# PostgreSQL Docker Container Setup
 
-Sua missão é ajudar a equipe de desenvolvimento a ter mais autonomia no desenvolvimento de projetos. E uma das reclamações da equipe é o setup local.
+Este repositório contém um script (postgresql.sh) para criar um banco de dados PostgreSQL em um container Docker de forma simplificada em sua máquina.
 
-Crie um comando para criar um banco de dados PostgreSQL no ambiente do desenvolvedor de uma forma que cumpra os seguintes requisitos:
+## Pré-requisitos
 
-O nome do banco de dados deve ser curso_docker
-O usuário de acesso ao banco deve ser docker_usr
-A senha do usuário deve ser docker_pwd
-Lembrando que a execução em container deve ser transparente pra quem está desenvolvendo. E que aqui você não precisa se preocupar com a perda dos dados do banco e nem nada disso, é apenas para desenvolvimento pontual.
+Certifique-se de ter o Docker instalado na sua máquina antes de prosseguir.
 
-Coloque aqui embaixo o comando que a equipe deve usar pra criar um banco de dados PostgreSQL com esses requisitos.
+## Como Usar
 
----
+1. Clone este repositório:
 
-Linha de comando direta:
-docker run --name meu_postgres -e POSTGRES_DB=curso_docker -e POSTGRES_USER=docker_usr -e POSTGRES_PASSWORD=docker_pwd -p 5432:5432 -d postgres
+   ```bash
+   git clone https://seu-repositorio.git
+   cd seu-repositorio
+   ```
 
----
+2. Execute o script `criar_bd_postgres.sh` para iniciar o container PostgreSQL:
 
-Observação: uma abordagem, seria transformar a linha de comando em um script .SH e permissionar sua execução na máquina HOST que irá utilizar. Por isso, disponibilizei aqui no repositório também um scrip .sh.
+   ```bash
+   ./criar_bd_postgres.sh
+   ```
+
+   Certifique-se de ter permissões adequadas para executar o script (`chmod +x criar_bd_postgres.sh`, se necessário).
+
+3. Verifique se o container PostgreSQL foi criado com sucesso:
+
+   ```bash
+   docker ps -a
+   ```
+
+4. Conecte-se ao banco de dados:
+
+   - **Host:** localhost (ou o endereço IP da sua máquina)
+   - **Porta:** 5432
+   - **Database:** curso_docker
+   - **Usuário:** docker_usr
+   - **Senha:** docker_pwd
+
+5. Para parar e remover o container PostgreSQL:
+
+   ```bash
+   docker stop meu_postgres
+   docker rm meu_postgres
+   ```
+
+## Observação!
+
+É possível também apenas executar o comando desrito no aquivo "cli.txt" (neste mesmo repositório), caso não queira utilizar o shell script.
 
 
+## Contato
+
+Autor: Michel Torres Dellabeneta  
+Contato: [linktr.ee/dellabeneta](https://linktr.ee/dellabeneta)
