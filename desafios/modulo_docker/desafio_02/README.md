@@ -51,10 +51,7 @@ A criação do container Docker com banco MySQL também pode ser feita de forma 
 ```
 docker run --name meu_mysql -e MYSQL_DATABASE=curso_docker -e MYSQL_USER=docker_usr -e MYSQL_PASSWORD=docker_pwd -e MYSQL_ROOT_PASSWORD=docker_pwd -p 3306:3306 -d mysql:latest
 ```
-Outra maneira ainda mais direta, segundo a documentação mais atualizada, seria:
-```
-docker run --name <NOME> -e MYSQL_ROOT_PASSWORD=<SECRET> -d mysql:<TAG>
-```
+
 ## Contato
 
 Autor: Michel Torres Dellabeneta  
