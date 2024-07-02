@@ -17,6 +17,6 @@ docker run --name $CONTAINER_NAME \
   -e POSTGRES_USER=$DB_USER \
   -e POSTGRES_PASSWORD=$DB_PASSWORD \
   -p $DB_PORT:$DB_PORT \
-  -d postgres
+  -d postgres:latest
 
 echo "Container PostgreSQL criado com sucesso!"

@@ -1,6 +1,6 @@
 # PostgreSQL Docker Container Setup
 
-Este repositório contém um script (postgresql.sh) para criar um banco de dados PostgreSQL em um container Docker de forma simplificada em sua máquina.
+Este repositório contém um script (criar_bd_postgre.sh) para criar um banco de dados PostgreSQL em um container Docker de forma simplificada em sua máquina.
 
 ## Pré-requisitos
 
