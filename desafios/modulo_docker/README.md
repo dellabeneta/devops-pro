@@ -47,7 +47,7 @@ Certifique-se de ter o Docker instalado na sua máquina antes de prosseguir.
 
 ## Observação!
 
-Tudo isso que fizemos também pode ser feito de forma direta, via linha de comando, utilizando o comando:
+A criação do container Docker com banco Postgres também pode ser feita de forma direta, via linha de comando:
 
 ```
 docker run --name meu_postgres -e POSTGRES_DB=curso_docker -e POSTGRES_USER=docker_usr -e POSTGRES_PASSWORD=docker_pwd -p 5432:5432 -d postgres
