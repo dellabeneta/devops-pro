@@ -5,7 +5,7 @@
 # Contato: https://linktr.ee/dellabeneta
 
 # Definição de variáveis
-CONTAINER_NAME="meu_sql"
+CONTAINER_NAME="meu_mysql"
 DB_NAME="curso_docker"
 DB_USER="docker_usr"
 DB_PASSWORD="docker_pwd"
@@ -16,7 +16,7 @@ docker run --name $CONTAINER_NAME \
   -e MYSQL_DATABASE=$DB_NAME \
   -e MYSQL_USER=$DB_USER \
   -e MYSQL_PASSWORD=$DB_PASSWORD \
-  -e MYSQL_ROOT_PASSWORD=$DB_PASSWORD \ # Definir a senha do root do MySQL, normalmente requerida.
+  -e MYSQL_ROOT_PASSWORD=$DB_PASSWORD \
   -p $DB_PORT:$DB_PORT \
   -d mysql:latest
 
