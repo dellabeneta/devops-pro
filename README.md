@@ -1,6 +1,6 @@
 # DevOps Pro Training Repository
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1CleEaLjWmz7B9ip19bqIoCvQNEqm0Drz" width="500">
+  <img src="https://drive.google.com/uc?export=view&id=1CleEaLjWmz7B9ip19bqIoCvQNEqm0Drz" width="400">
 </p>
 
 ## Sobre este repositório
