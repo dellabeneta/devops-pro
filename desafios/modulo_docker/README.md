@@ -11,8 +11,8 @@ Certifique-se de ter o Docker instalado na sua máquina antes de prosseguir.
 1. Clone este repositório:
 
    ```bash
-   git clone https://seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/dellabeneta/devops-pro.git
+   cd devops-pro
    ```
 
 2. Execute o script `criar_bd_postgres.sh` para iniciar o container PostgreSQL:
