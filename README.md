@@ -1,7 +1,7 @@
 # DevOps Pro Training Repository
 
 <div style="text-align: center;">
-    <img src="https://drive.google.com/uc?export=view&id=1h5jI_Y74OyY3BIxaubRkbhAx69QIonHO" width="800">
+    <img src="https://drive.google.com/uc?export=view&id=1h5jI_Y74OyY3BIxaubRkbhAx69QIonHO" width="400">
 </div>
 
 ## Sobre este repositório
@@ -16,7 +16,7 @@ Este repositório contém os materiais e desafios que estou desenvolvendo durant
 
 ## Créditos
 
-Este curso é oferecido por [Fabricio Veronez](https://fabricioveronez.com), que tem proporcionado um excelente aprendizado em DevOps. 
+Este curso é oferecido por [Fabricio Veronez](https://www.linkedin.com/in/fabricioveronez/), que tem proporcionado um excelente aprendizado em DevOps. 
 
 ## Contribuição
 
