@@ -1,6 +1,18 @@
-# DevOps Pro Training Repository
+<div>
+<a align="right" href="https://www.digitalocean.com/?refcode=c231bd46146c&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
+    <img align="right" src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge"/>
+</a>
 
-<img src="https://drive.google.com/uc?export=view&id=1HdeamEr2bMEDmM5HdXyEGeRuXXhyfjQh" width="400">
+<a align="left" style="margin-right:20px" href="https://github.com/dellabeneta/ntconsult-iac-api-foundation/actions/workflows/main.yaml">
+    <img src="https://github.com/dellabeneta/ntconsult-iac-api-foundation/actions/workflows/main.yaml/badge.svg" alt="Deploy Terraform Foundation"/>
+</a>
+</div>
+
+
+# DevOps Pro Training Repository
+<br>
+<img src="https://drive.google.com/uc?export=view&id=1HdeamEr2bMEDmM5HdXyEGeRuXXhyfjQh" width="1500">
+<br>
 
 ## Sobre este repositório
 
