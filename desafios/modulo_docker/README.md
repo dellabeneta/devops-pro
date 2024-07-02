@@ -26,7 +26,7 @@ Certifique-se de ter o Docker instalado na sua máquina antes de prosseguir.
 3. Verifique se o container PostgreSQL foi criado com sucesso:
 
    ```bash
-   docker ps -a
+   docker container ls -a
    ```
 
 4. Conecte-se ao banco de dados:
