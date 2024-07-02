@@ -37,17 +37,21 @@ Certifique-se de ter o Docker instalado na sua máquina antes de prosseguir.
    - **Usuário:** docker_usr
    - **Senha:** docker_pwd
 
-5. Para parar e remover o container PostgreSQL:
+5. Para parar e remover o container PostgreSQL e a imagem base do Container:
 
    ```bash
-   docker stop meu_postgres
-   docker rm meu_postgres
+   docker container stop meu_postgres
+   docker container rm meu_postgres
+   docker image rm postgres:latest
    ```
 
 ## Observação!
 
-É possível também apenas executar o comando desrito no aquivo "cli.txt" (neste mesmo repositório), caso não queira utilizar o shell script.
+Tudo isso que fizemos também pode ser feito de forma direta, via linha de comando, utilizando o comando:
 
+```
+
+```
 
 ## Contato
 
