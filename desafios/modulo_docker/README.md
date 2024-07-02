@@ -23,10 +23,10 @@ Certifique-se de ter o Docker instalado na sua máquina antes de prosseguir.
 
    Certifique-se de ter permissões adequadas para executar o script (`chmod +x criar_bd_postgres.sh`, se necessário).
 
-3. Verifique se o container PostgreSQL foi criado com sucesso:
+3. Verifique se o container PostgreSQL foi criado e está em execução:
 
    ```bash
-   docker container ls -a
+   docker container ls
    ```
 
 4. Conecte-se ao banco de dados:
