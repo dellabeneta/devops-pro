@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: conversao-temp
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: conversao-temp
+  template:
+    metadata:
+      labels:
+        app: conversao-temp
+    spec:
+      containers:
+      - name: conversao-temp
+        image: dellabeneta/conversao-temp:v3
+        # resources:
+        #   limits:
+        #     memory: "128Mi"
+        #     cpu: "500m"
+        ports:
+          - name: http
+            containerPort: 8080
+            protocol: TCP
