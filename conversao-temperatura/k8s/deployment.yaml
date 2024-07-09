@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: conversao-temp
+  name: convtemp
 spec:
   replicas: 5
   selector:
     matchLabels:
-      app: conversao-temp
+      app: convtemp
   template:
     metadata:
       labels:
-        app: conversao-temp
+        app: convtemp
     spec:
       containers:
-      - name: conversao-temp
-        image: dellabeneta/conversao-temp:v3
+      - name: convtemp
+        image: dellabeneta/convtemp:v2
         # resources:
         #   limits:
         #     memory: "128Mi"
